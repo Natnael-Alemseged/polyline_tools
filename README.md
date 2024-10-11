@@ -11,29 +11,20 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Polyline Tools
+
+A Dart package for encoding and decoding Google Maps polylines. The `polyline_tools` package allows you to easily convert between encoded polyline strings and lists of geographical coordinates.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Encode a list of `LatLng` points into a Google Maps encoded polyline string.
+- Decode a Google Maps encoded polyline string back into a list of `LatLng` points.
+- Simple API for quick integration in Flutter and Dart applications.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use `polyline_tools`, add it as a dependency in your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  polyline_tools: ^1.0.0  # Replace with the latest version
