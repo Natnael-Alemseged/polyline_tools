@@ -1,6 +1,6 @@
 name: polyline_tools
 description: "A Dart package for encoding and decoding Google Maps polylines."
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/Natnael-Alemseged/polyline_tools.git
 homepage: https://pub.dev/packages/polyline_tools
 
