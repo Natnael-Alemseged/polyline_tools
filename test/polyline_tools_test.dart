@@ -21,7 +21,8 @@ void main() {
       expect(decodedPoints.length, points.length);
       for (int i = 0; i < points.length; i++) {
         expect(decodedPoints[i].latitude, closeTo(points[i].latitude, 0.00001));
-        expect(decodedPoints[i].longitude, closeTo(points[i].longitude, 0.00001));
+        expect(
+            decodedPoints[i].longitude, closeTo(points[i].longitude, 0.00001));
       }
     });
 
